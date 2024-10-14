@@ -1,15 +1,3 @@
-![GitHub forks](https://img.shields.io/github/forks/ekosman/AnomalyDetectionCVPR2018-Pytorch?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/ekosman/AnomalyDetectionCVPR2018-Pytorch?style=social)
-
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ekosman/AnomalyDetectionCVPR2018-Pytorch/main.svg)](https://results.pre-commit.ci/latest/github/ekosman/AnomalyDetectionCVPR2018-Pytorch/main)
-[![Lint Status](https://github.com/pycqa/isort/workflows/Lint/badge.svg?branch=develop)](https://github.com/ekosman/AnomalyDetectionCVPR2018-Pytorch/actions?query=workflow%3A)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
-[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
-
-# AnomalyDetectionCVPR2018-Pytorch  <!-- omit in toc -->
-Pytorch version of - https://github.com/WaqasSultani/AnomalyDetectionCVPR2018
-
 ## Table of Contents  <!-- omit in toc -->
 - [Future Improvements](#future-improvements)
 - [Known Issues](#known-issues)
