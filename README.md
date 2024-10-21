@@ -1,34 +1,3 @@
-## Table of Contents  <!-- omit in toc -->
-- [Future Improvements](#future-improvements)
-- [Known Issues](#known-issues)
-- [Install Anaconda Environment](#install-anaconda-environment)
-- [Feature Extractor Weights](#feature-extractor-weights)
-  - [C3D](#c3d)
-  - [R3D-101](#r3d-101)
-  - [R3D-152](#r3d-152)
-- [Precomputed Features](#precomputed-features)
-  - [C3D features](#c3d-features)
-  - [ResNet-101 features (by @Daniele Mascali)](#resnet-101-features-by-daniele-mascali)
-  - [ResNet-152 features (by @Henryy-rs)](#resnet-152-features-by-henryy-rs)
-- [Pre-Trained Anomaly Detector](#pre-trained-anomaly-detector)
-- [Features Extraction](#features-extraction)
-- [Training](#training)
-- [Generate ROC Curve](#generate-roc-curve)
-- [Demo](#demo)
-  - [Off-line (with video loader)](#off-line-with-video-loader)
-  - [On-line (via webcam)](#on-line-via-webcam)
-- [Cite](#cite)
-- [FAQ](#faq)
-
-## Future Improvements
-In this section, I list the future improvements I intend to add to this repository. Please feel free to recommend new features. I also happily accept PR's! :smirk:
-
-* I3D feature extraction
-* MFNET feature extraction
-
-## Known Issues
-
-* AUC is not exactly as reported in the paper (0.70 vs 0.75) - might be affected by the weights of C3D
 
 ## Install Anaconda Environment
 
@@ -40,8 +9,7 @@ conda activate adCVPR18
 ## Feature Extractor Weights
 
 ### C3D
-I couldn't upload here the weights for the C3D model because the file is too big, but it can be found here:
-https://github.com/DavideA/c3d-pytorch
+https://drive.google.com/file/d/1Ev5ZIYuOIWHHO6SujDeR1eugNnvO2hWv/view?usp=sharing
 
 ### R3D-101
 https://drive.google.com/file/d/1p80RJsghFIKBSLKgtRG94LE38OGY5h4y/view?usp=share_link
