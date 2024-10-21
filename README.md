@@ -23,14 +23,11 @@ Can be downloaded from:
 ### C3D features
 https://drive.google.com/drive/folders/1rhOuAdUqyJU4hXIhToUnh5XVvYjQiN50?usp=sharing
 
-### ResNet-101 features (by @Daniele Mascali)
+### ResNet-101 features 
 https://drive.google.com/file/d/1kQAvOhtL-sGadblfd3NmDirXq8vYQPvf/view?usp=sharing
 
-### ResNet-152 features (by @Henryy-rs)
+### ResNet-152 features 
 https://drive.google.com/file/d/17wdy_DS9UY37J9XTV5XCLqxOFgXiv3ZK/view
-
-## Pre-Trained Anomaly Detector
-Check out <a href="exps/">exps/</a> for for trained models on the pre-computed features
 
 ## Features Extraction
 Download the dataset from: https://github.com/WaqasSultani/AnomalyDetectionCVPR2018
@@ -90,28 +87,3 @@ Arguments:
 The GUI lets you load a video and run the Anomaly Detection code (including feature extraction) and output a video with a graph of the Anomaly Detection prediction below.
 
 **Note**: The feature extractor and the anomaly detection model must match. Make sure you are using the anomaly detector that was training with the corresponding features.
-
-*Contrbuted by Peter Overbury of Sussex Universty IISP Group
-
-## Cite
-```
-@misc{anomaly18cvpr-pytorch,
-  author       = "Eitan Kosman",
-  title        = "Pytorch implementation of Real-World Anomaly Detection in Surveillance Videos",
-  howpublished = "\url{https://github.com/ekosman/AnomalyDetectionCVPR2018-Pytorch}",
-  note         = "Accessed: 20xx-xx-xx"
-}
-```
-
-## FAQ
-1.
-```
-Q: video_demo doesn't show videos
-A: Downlaod and install LAVFilters: http://forum.doom9.org/showthread.php?t=156191
-```
-
-2.
-```
-Q: What is the meaning of the second column of Train_Annotations.txt?
-A: Length of the video in frames. Note that it has not effect on training. It exists because these are the original annotations supplied by the authors.
-```
